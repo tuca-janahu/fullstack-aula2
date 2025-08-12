@@ -1,0 +1,24 @@
+
+
+body {
+    background-color: #fffbed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3%;
+}
+
+h1 {
+    padding: 0px 12px 12px 0px;
+    text-align: center;
+}
+
+ .list-container{
+    background-color: #00000020;
+    padding: 20px 10px;
+    border-radius: 16px;
+    margin: 20px;
+}
+
+form {
+  width: 500px; /* Or a specific width for your form */
+  margin: 0 auto;
+}

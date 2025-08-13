@@ -7,20 +7,25 @@
     margin: 16px auto;
     text-align: center;
     background: #fff;
-    transition: box-shadow 0.2s;
+    transition:  0.1s ease-in;
 }
 
 
 .pizza-card:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transform: scale(1.02); 
 }
+
 .pizza-card img {
-    width: 100%;
+    width: 250px;         /* largura fixa */
+    height: 140px;        /* altura fixa */
+    object-fit: cover;    /* mantém proporção, corta excesso */
     border-radius: 8px;
-    margin-bottom: 12px;
+    display: block;
+    margin: 0 auto 24px auto;
 }
 .pizza-card h3 {
-    margin: 8px 0 4px 0;
+    margin: 40px 0 4px 0;
     font-size: 1.2em;
 }
 .pizza-card li {
@@ -51,6 +56,6 @@
     display: flex;
     justify-content: center; /* Centraliza os cards na tela */
     flex-wrap: wrap;   /* Permite quebrar linha em telas menores */
-    margin: 32px 0;
     margin-bottom: 100px;
+    padding: 40px 0px;
 }

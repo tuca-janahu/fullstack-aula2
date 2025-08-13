@@ -1,0 +1,56 @@
+.pizza-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
+    background: #fff;
+    transition: box-shadow 0.2s;
+}
+
+
+.pizza-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.pizza-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.pizza-card h3 {
+    margin: 8px 0 4px 0;
+    font-size: 1.2em;
+}
+.pizza-card li {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+.pizza-card ol {
+    list-style-type: upper-roman;
+    padding: 0;
+    margin: 20px 30px;
+    text-align: left;
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* .pizza-card .preco {
+    display: inline-block;
+    background: #ff9800;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1em;
+} */
+
+.pizza-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cards na tela */
+    flex-wrap: wrap;   /* Permite quebrar linha em telas menores */
+    margin: 32px 0;
+    margin-bottom: 100px;
+}

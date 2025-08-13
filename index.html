@@ -5,38 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas receitas</title>
     <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/src/pizza.css">
+
 </head>
 <body>
-    <h1>Minhas receitas</h1>
+    <h1>Minhas pizzas</h1>
         <div class="list-container">
-            
             <ul>
-            <li>Receita de bolo</li>
-            <li>Receita de pizza</li>
-        </ul>
+                <li>Receita de bolo</li>
+                <li>Receita de pizza</li>
+            </ul>
 
-        <ol>
-           <li> ovo <br> </li>
-           <li> sal <br> </li>
-           <li> azeite <br> </li>
-           <li> fermento <br> </li>
-           <li> farinha <br> </li>
-        </ol>
+            <ol>
+            <li> ovo <br> </li>
+            <li> sal <br> </li>
+            <li> azeite <br> </li>
+            <li> fermento <br> </li>
+            <li> farinha <br> </li>
+            </ol>
         </div>
 
-<form action="/envio.html" method="get">
-  
-    <h2>Informe seus dados para um pedido personalizado:</h2>
-    <label for="nome">Nome</label>
-        <input type="text" name="nome">
-    <label for="email">E-mail</label>
-        <input type="email" name="email">
-    <label for="celular">Celular</label>
-        <input type="text" name="nome">
+        <h1>Recheios</h1>
+        <p>OBS: Todas as pizzas contém a mesma receita para a massa.</p>
+<div class="pizza-container">  
+
+    <div class="pizza-card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Pizza Margherita">
+        <h3>Pizza Margherita</h3>
+
+            <ol>
+                <li>Molho de tomate,</li>
+                <li>Mussarela,</li>
+                <li>Manjericão fresco,</li>
+                <li>Azeite de oliva.</li>
+            </ol>
+    </div>
+    <div class="pizza-card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Pizza Margherita">
+        <h3>Pizza de Calabresa & Mel</h3>
+            <ol>
+                <li>Molho de tomate,</li>
+                <li>Mussarela,</li>
+                <li>Linguiça Calabresa,</li>
+                <li>Mel.</li>
+            </ol>
+    </div>
+
+    <div class="pizza-card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Pizza Margherita">
+        <h3>Pizza de Carbonara</h3>
+        <ol>
+                <li>Mussarela,</li>
+                <li>Gema de Ovo,</li>
+                <li>Queijo Parmesão,</li>
+                <li>Bacon,</li>
+                <li>Pimenta do reino.</li>
+            </ol>
         
-    <button type="submit">Enviar</button>
-</form>
+    </div>
 
+    <div class="pizza-card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Pizza Margherita">
+        <h3>Pizza de Frango com Catupiry</h3>
+            <ol>
+                <li>Molho de tomate,</li>
+                <li>Mussarela,</li>
+                <li>Frango desfiado,</li>
+                <li>Catupiry.</li>
+            </ol>
+    </div>  
+</div>  
 
+</section>
+<h1>Contato</h1>  
+<section class="section-container">    
+    <div class="form-container">
+        <h2>Informe seus dados para um pedido <br> personalizado:</h2>
+
+        <form action="/envio.html" method="get">
+            <label for="nome">Nome</label>
+                <input type="text" name="nome">
+            <label for="email">E-mail</label>
+                <input type="email" name="email">
+            <label for="celular">Celular</label>
+                <input type="text" name="nome">   
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+</section>
 </body>
+
+<footer>
+    <p>Desenvolvido por Artur Janahú</p>
+    
+</footer>
 </html>

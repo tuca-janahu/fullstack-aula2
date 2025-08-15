@@ -34,7 +34,7 @@
 }
 
 .pizza-card ol {
-    list-style-type: upper-roman;
+    list-style-type: lower-roman;
     padding: 0;
     margin: 20px 30px;
     text-align: left;
